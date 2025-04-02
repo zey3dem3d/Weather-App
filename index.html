@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="icon" href="./images/logo.png" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container px-lg-5">
+      <!-------------------------------------------------------- Navbar -------------------------------------------------------->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary py-0">
+        <div class="container-fluid nav-container p-0">
+          <a class="text-white text-decoration-none" href="#"
+            ><img
+              src="./images/logo.png"
+              class="me-3 align-self-start logo-img"
+              alt="logo photo"
+            />
+            <div class="d-inline-block">
+              <h1 class="m-0 h6">Weather</h1>
+              <small class="logo-p">tagline goes here</small>
+            </div>
+          </a>
+          <button
+            class="navbar-toggler dark-bg-color"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form class="d-flex me-auto"></form>
+            <ul class="navbar-nav mt-4 mt-lg-0">
+              <li class="nav-item pe-3 my-2 my-md-0">
+                <a
+                  class="nav-link rounded-pill active text-white py-1 px-sm-1 px-md-4 text-center"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item pe-3 my-2 my-lg-0">
+                <a
+                  class="nav-link rounded-pill text-white py-1 px-md-4 text-center"
+                  href="#"
+                  >News</a
+                >
+              </li>
+              <li class="nav-item pe-3 my-2 my-lg-0">
+                <a
+                  class="nav-link rounded-pill text-white py-1 px-md-4 text-center"
+                  href="#"
+                  >Live cameras</a
+                >
+              </li>
+              <li class="nav-item pe-3 my-2 my-lg-0">
+                <a
+                  class="nav-link rounded-pill text-white py-1 px-md-4 text-center"
+                  href="#"
+                  >Photo</a
+                >
+              </li>
+
+              <li class="nav-item pe-3 my-2 my-lg-0">
+                <a
+                  class="nav-link rounded-pill text-white py-1 px-md-4 text-center"
+                  href="#"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-------------------------------------------------------- Form -------------------------------------------------------->
+
+    <main>
+      <div class="container">
+        <form
+          class="d-flex justify-content-between flex-column flex-sm-row pt-8 px-2 px-lg-5"
+        >
+          <input
+            type="search"
+            class="dark-bg-color rounded-pill border-0 px-3 py-2 w-100 me-2 mb-4 m-md-0"
+            name="search"
+            id="search"
+            placeholder="Find you location..."
+          />
+          <button
+            class="btn rounded-pill px-4 primary-bg-color text-white ms-3"
+          >
+            Find
+          </button>
+        </form>
+        <!-------------------------------------------------------- Body -------------------------------------------------------->
+        <div class="row text-white my-4 mx-2 rounded-3">
+          <div class="col-md-6 col-xl-4 fourth-color px-0">
+            <div class="">
+              <div class="d-flex justify-content-between secondry-color p-2">
+                <p class="m-0" id="dayName">Saturday</p>
+                <p class="m-0" id="month">29 March</p>
+              </div>
+              <div class="third-color p-3">
+                <p>Cairo</p>
+                <div class="text-white fs-1 fw-bold">
+                  <p class="fs-90">24.2<sup>o</sup>C</p>
+                  <img src="./images/logo.png" class="w-25" alt="" />
+                </div>
+                <p class="primary-color">Partly cloudy</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4 fourth-color px-0">
+            <div class="">
+              <div class="sixth-bg-color p-2 text-center">
+                <p class="m-0">Saturday</p>
+              </div>
+              <div class="fifth-bg-color text-center p-3">
+                <div class="text-white fs-1 py-6 fw-bold">
+                  <p class="fs-3">24.2<sup>o</sup>C</p>
+                  <img src="./images/logo.png" class="w-25" alt="" />
+                </div>
+                <p class="primary-color">Partly cloudy</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4 fourth-color px-0">
+            <div class="">
+              <div class="secondry-color p-2 text-center">
+                <p class="m-0">Saturday</p>
+              </div>
+              <div class="third-color text-center p-3">
+                <div class="text-white fs-1 py-6 fw-bold">
+                  <p class="fs-3">24.2<sup>o</sup>C</p>
+                  <img src="./images/logo.png" class="w-25" alt="" />
+                </div>
+                <p class="primary-color">Partly cloudy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

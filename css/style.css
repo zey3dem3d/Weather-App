@@ -1,0 +1,111 @@
+:root {
+  --primary-color: #009ad8;
+  --dark-color: #1e202b;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: var(--dark-color);
+}
+
+.nav-container {
+  background-color: var(--dark-color) !important;
+  padding: 15px !important;
+}
+
+.logo-p {
+  color: rgb(191, 193, 200);
+  font-size: 10px;
+}
+
+.logo-img {
+  width: 64px !important;
+  height: 38px !important;
+  vertical-align: top;
+}
+
+main {
+  height: 50vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../images/bg-img.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.primary-color {
+  color: var(--primary-color);
+}
+
+.primary-bg-color {
+  background-color: var(--primary-color);
+}
+
+.dark-bg-color {
+  background-color: var(--dark-color);
+}
+
+.secondry-color {
+  background-color: #2d303d;
+}
+
+.third-color {
+  background-color: #323544;
+}
+
+.fourth-color {
+  color: rgb(191, 193, 200);
+}
+
+.fifth-bg-color {
+  background-color: #262936;
+}
+
+.sixth-bg-color {
+  background-color: #222530;
+}
+
+.fs-90 {
+  font-size: 2em;
+}
+
+.py-6 {
+  padding: 59px 0;
+}
+
+.pt-8 {
+  padding: 150px 0 0 0;
+}
+
+input {
+  outline: 2px solid transparent;
+}
+
+input,
+.navbar-nav .nav-link {
+  transition: all 0.5s !important;
+}
+
+input:focus {
+  outline: none;
+  color: #fff;
+  outline: 2px solid var(--primary-color) !important;
+}
+
+.navbar-nav .nav-link {
+  border: 2px solid transparent;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: var(--primary-color) !important;
+  border: 2px solid var(--primary-color);
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--primary-color) !important;
+  border: 2px solid var(--primary-color);
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 3px 3px var(--primary-color) !important;
+}
